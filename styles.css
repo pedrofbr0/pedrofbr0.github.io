@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Projects Section */
+#projects {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#projects h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.project-card p {
+    text-align: center;
+}
+
+.project-card a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: auto;
+}
+
+/* Contact Section */
+#contact {
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+#contact p {
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
